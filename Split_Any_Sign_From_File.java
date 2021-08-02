@@ -1,4 +1,3 @@
-package com.AmigosCode;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -16,7 +15,7 @@ public class Split_Any_Sign_From_File {
     public static void main(String[] args) throws Throwable {
 
         //Read from a file
-        File file=new File("C:\\Users\\pc2\\desktop\\SAVE_TEXT.txt");
+        File file=new File("C:\\Users\\SAVE_TEXT.txt");
         FileReader fileReader=new FileReader(file);
         BufferedReader bufferedReader=new BufferedReader(fileReader);
 
